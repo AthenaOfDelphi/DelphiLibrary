@@ -5,19 +5,31 @@ This repository contains the parts of my Delphi library that I am making publicl
 
 It is offered under the MPL (Version 2.0), details of which can be found in LICENSE.
 
-I will try to break the library up into sensible directories as items are added.  For now, there is only one.  Each section may be further divided to keep related items (e.g. usage examples) together.
+## Structure ##
 
-## Sections ##
+My initial commits were based on organising the library into different sections, grouping the files together by subject area (e.g. game development).  However, this makes for a painful check out process if you want to use multiple files.  I have restructured the library and separated the files by content type.
 
-- **GameDevelopment** - Units and classes that may prove useful if you are writing games with Delphi
+- **Source** - Contains the source files for the library itself
+- **Documentation** - Contains the documentation provided for the library where available.  The files are named to correspond with the source file they relate to
+- **Examples** - Contains example projects that illustrate the usage of the library.  The sub-directories are named to correspond with the source file they relate to
 
-Further information about the contents of each section can be found in the README.md for that section.  Usage information can be found in either an associated README or within the source itself.
+## Library Content ##
+
+The library contains the following files:-
+
+- **classSingleton.pas** - A sub-classable singleton that allows easy, no hassle creation of singleton classes
+- **unitGenericBinaryTree.pas** - An implementation of a binary tree class using generics to remove the need for lots of typecasting in the client code
+- **unitXInput.pas** - An XInput interface for Delphi that allows you to use game pads supported by XInput in your Delphi code 
+
+## Compatability ##
+
+The library has been tested with Delphi XE7 (in most cases only with Win32 and Win64 targets).  However, many of the items it contains began life on early versions, many on Delphi 2009.  If have a specific target and experience difficulties, please report an issue and I will attempt to resolve it.
 
 ## Support ##
 
 I'm a full time software engineer who is busy studying for a degree.  Couple that with the fact I have a few personal software projects on the go, and I don't have a lot of time to provide support so, like my WordPress plug-ins, it's offered on a 'when I can' basis.
 
-If you would like to report an issue with the code I provide here, then please do so using the Github issue tracker.  If you require urgent assistance then you may email at **athena at outer hyphen reaches dot com**.
+If you would like to report an issue with the code I provide here, then please do so using the Github issue tracker.  If you require urgent assistance then you may email me at **athena at outer hyphen reaches dot com**.
 
 When reporting issues, please provide as much information as you can.
 
