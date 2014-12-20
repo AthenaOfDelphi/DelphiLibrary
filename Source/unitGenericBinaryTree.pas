@@ -1,5 +1,21 @@
 unit unitGenericBinaryTree;
 
+(*
+
+  Generic Binary Tree
+  Copyright (C) 2014 Christina Louise Warne (aka AthenaOfDelphi)
+
+  http://athena.outer-reaches.com
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+  This unit is part of my Delphi Library (Utilities section) available at:-
+    https://github.com/AthenaOfDelphi/DelphiLibrary
+
+*)
+
 interface
 
 {$DEFINE _BTREEDEBUG}

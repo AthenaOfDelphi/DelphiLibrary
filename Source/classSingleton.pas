@@ -2,7 +2,7 @@ unit classSingleton;
 
 (*
 
-  Subclassable Singleton
+  Sub-classable Singleton
   Copyright (C) 2014 Christina Louise Warne (aka AthenaOfDelphi)
 
   http://athena.outer-reaches.com
